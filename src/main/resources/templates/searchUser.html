@@ -8,10 +8,10 @@
 <body>
 <div class="container col-6">
     <h2>Search User</h2>
-    <div>
-        <form th:action="@{search}" method="get">
+    <div style="margin: 15px 0">
+        <form th:action="@{search}" method="get" style="display: flex">
             <input type="text" class="form-control" name="name" placeholder="Enter name to search">
-            <input type="submit" value="Search user bt name" class="btn btn-primary">
+            <input type="submit" value="Search" class="btn btn-primary">
         </form>
     </div>
     <table class="table table-active">
